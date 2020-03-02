@@ -1,13 +1,167 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Verdana";
+  font-size: 20px;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url(./img/background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainContainer {
+  background-color: rgba(250, 250, 250, 0.8);
+  padding: 2em;
+  min-width: 50vw;
+  width: fit-content;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  width: fit-content;
+  position: relative;
+  font-size: 3em;
+  font-family: "Comic Sans MS";
+  color: whitesmoke;
+  text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
+  padding-right: 110px;
+}
+
+h1:after {
+  width: 100px;
+  height: 100px;
+  content: " ";
+  background: url(./img/Cereal-Guy-Meme-PNG.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+}
+
+@media(max-width: 450px) {
+  h1 {
+    font-size: 2em;
+    padding-right: 50px;
+  }
+  h1:after {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  align-items: stretch;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.textOptions {
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.optionLabel {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textOption {
+  height: 35px;
+  border: 1px solid black;
+  margin: 0 1em 0 0.5em;
+  display: block;
+}
+
+label {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+input, label {
+  margin-bottom: 0.5em;
+  border: solid black 1px;
+}
+
+.memeImgContainer {
+  width: 90%;
+  max-width: 800px;
+  max-height: fit-content;
+  position: relative;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.textTop, .textBottom {
+  text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
+  max-width: 80%;
+  word-break: break-all;
+  line-height: 100%;
+}
+
+.textTop {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 95%;
+}
+
+.textBottom {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.image {
+  max-width: 100%;
+}
+
+.downloadBtn {
+  margin: auto;
+  display: block;
+  padding: 0.5em 1em;
+  border: 1px solid black;
+  margin-bottom: 1em;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  max-width: 50%;
+}
+
+button {
+  background-color: none
 }

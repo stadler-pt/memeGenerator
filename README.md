@@ -27,8 +27,9 @@ Folgende Komponenten müssen lokal installiert sein:
 Um das Projekt lokal auszuführen, folgendes in der Commandline / Bash eingeben:
 
 ```console
-$ git clone <linktorepository> udg-probeaufgabe
+$ git clone https://github.com/stadler-pt/memegenerator udg-probeaufgabe
 $ cd udg-probeaufgabe
+$ npm install
 $ npm start
 ```
 ---

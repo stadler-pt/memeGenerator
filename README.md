@@ -7,6 +7,8 @@ Folgende Technolgien / Frameworks setze ich in meinem Projekt ein:
 - JavaScript
 - React.js
 
+Meine Kenntnisse in JavaScript beziehen sich vor allem auf die Clientside. Fortgeschrittene ES6 Konzepte (z.B. Promises oder Classes) sind verstanden, in der Umsetzung jedoch unsicher. Sonstiger ES6 Syntax (Template-Strings, Arrow-Functions, let/const, for-of-loop, etc.) ist mir Bekannt und ich kann diesen in Projekten zielführend einsetzen. Auch erste Erfahrungen mit Node und Express sind vorhanden. In der Verwendung von React.js sind mir Konzepte wie Hooks, HOCs, Context und die Libraty React Router bekannt und können implementiert werden.
+
 Ich habe mich für JavaScript in Verbindung mit React.js entschieden, da dies die unkomplizierte Erweiterung von skalierbaren Funktionalitäten zulässt (z.B. eine Galerie mit erstellten Memes).
 Des weiteren ist die DOM-Manipulation über controlled inputs simpel und dank des Virtual DOM leistungsstark.
 

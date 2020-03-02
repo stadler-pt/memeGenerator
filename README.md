@@ -20,7 +20,9 @@ Name | Begründung
 
 ## Installation / Ausführen des Projektes
 
-Folgende Komponenten müssen lokal installiert sein:
+Das Projekt kann online eingesehen werden unter https://stadler-pt.github.io/memegenerator/
+
+Zur lokalen Ausführung müssen folgende Komponenten lokal installiert sein:
 
 - [nodejs](https://nodejs.org/en/)
 
